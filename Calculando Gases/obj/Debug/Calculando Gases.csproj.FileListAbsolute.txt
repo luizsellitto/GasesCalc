@@ -1,0 +1,11 @@
+C:\Users\luizs\OneDrive\Documentos\Em Casa\Calculando Gases\Calculando Gases\bin\Debug\Calculando Gases.exe.config
+C:\Users\luizs\OneDrive\Documentos\Em Casa\Calculando Gases\Calculando Gases\bin\Debug\Calculando Gases.exe
+C:\Users\luizs\OneDrive\Documentos\Em Casa\Calculando Gases\Calculando Gases\bin\Debug\Calculando Gases.pdb
+C:\Users\luizs\OneDrive\Documentos\Em Casa\Calculando Gases\Calculando Gases\obj\Debug\Calculando Gases.csproj.AssemblyReference.cache
+C:\Users\luizs\OneDrive\Documentos\Em Casa\Calculando Gases\Calculando Gases\obj\Debug\Calculando Gases.csproj.SuggestedBindingRedirects.cache
+C:\Users\luizs\OneDrive\Documentos\Em Casa\Calculando Gases\Calculando Gases\obj\Debug\Calculando_Gases.Form1.resources
+C:\Users\luizs\OneDrive\Documentos\Em Casa\Calculando Gases\Calculando Gases\obj\Debug\Calculando_Gases.Properties.Resources.resources
+C:\Users\luizs\OneDrive\Documentos\Em Casa\Calculando Gases\Calculando Gases\obj\Debug\Calculando Gases.csproj.GenerateResource.cache
+C:\Users\luizs\OneDrive\Documentos\Em Casa\Calculando Gases\Calculando Gases\obj\Debug\Calculando Gases.csproj.CoreCompileInputs.cache
+C:\Users\luizs\OneDrive\Documentos\Em Casa\Calculando Gases\Calculando Gases\obj\Debug\Calculando Gases.exe
+C:\Users\luizs\OneDrive\Documentos\Em Casa\Calculando Gases\Calculando Gases\obj\Debug\Calculando Gases.pdb
