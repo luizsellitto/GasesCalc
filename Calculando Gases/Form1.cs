@@ -29,8 +29,12 @@ namespace Calculando_Gases
             double temp2 = Convert.ToDouble(textBox9.Text);
             double mm = Convert.ToDouble(textBox10.Text);
             double massa = Convert.ToDouble(textBox11.Text);
+            double celcius = Convert.ToDouble(textBox12.Text);
             int molecula = Convert.ToInt32(textBox13.Text);
-            if(mm != 0)
+            double mmHg = Convert.ToInt32(textBox14.Text);
+            double pascal = Convert.ToDouble(textBox15.Text);
+            double Kpascal = Convert.ToDouble(textBox16.Text);
+            if (mm != 0)
             {
                 mols = massa / mm;
             }
@@ -86,6 +90,31 @@ namespace Calculando_Gases
             else if (Convert.ToDouble(textBox6.Text) == 10)
             {
                 double resultado = (volume * pressao * temp2) / (pressao2 * volume2);
+                label6.Text = $"O resultado é: {resultado}";
+            }
+            else if (Convert.ToDouble(textBox6.Text) == 11)
+            {
+                double resultado = (consta * temp) / pressao;
+                label6.Text = $"O resultado é: {resultado}";
+            }
+            else if (Convert.ToDouble(textBox6.Text) == 12)
+            {
+                double resultado = celcius + 273.15; ;
+                label6.Text = $"O resultado é: {resultado}";
+            }
+            else if (Convert.ToDouble(textBox6.Text) == 13)
+            {
+                double resultado = mmHg / 760; ;
+                label6.Text = $"O resultado é: {resultado}";
+            }
+            else if (Convert.ToDouble(textBox6.Text) == 14)
+            {
+                double resultado = pascal / 101325; ;
+                label6.Text = $"O resultado é: {resultado}";
+            }
+            else if (Convert.ToDouble(textBox6.Text) == 14)
+            {
+                double resultado = Kpascal / 101.325; ;
                 label6.Text = $"O resultado é: {resultado}";
             }
             else

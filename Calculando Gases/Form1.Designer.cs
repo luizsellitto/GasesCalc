@@ -61,6 +61,17 @@
             this.label19 = new System.Windows.Forms.Label();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -349,11 +360,117 @@
             this.label20.TabIndex = 33;
             this.label20.Text = "Moléculas";
             // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(153, 60);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(100, 22);
+            this.textBox12.TabIndex = 34;
+            this.textBox12.Text = "0";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(86, 60);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(51, 16);
+            this.label21.TabIndex = 35;
+            this.label21.Text = "Celsius";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(153, 32);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(100, 22);
+            this.textBox14.TabIndex = 36;
+            this.textBox14.Text = "0";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(84, 35);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(47, 16);
+            this.label22.TabIndex = 37;
+            this.label22.Text = "mmHg";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(570, 340);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(121, 16);
+            this.label23.TabIndex = 38;
+            this.label23.Text = "12 - Celsius - Kelvin";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(570, 318);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(157, 16);
+            this.label24.TabIndex = 39;
+            this.label24.Text = "11 - Volume Molar (RT/P)";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(570, 359);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(104, 16);
+            this.label25.TabIndex = 40;
+            this.label25.Text = "13 - mmHg - Atm";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(84, 9);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(48, 16);
+            this.label26.TabIndex = 41;
+            this.label26.Text = "pascal";
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(153, 12);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(100, 22);
+            this.textBox15.TabIndex = 42;
+            this.textBox15.Text = "0";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(276, 18);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(56, 16);
+            this.label27.TabIndex = 43;
+            this.label27.Text = "Kpascal";
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(350, 18);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(100, 22);
+            this.textBox16.TabIndex = 44;
+            this.textBox16.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox16);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.textBox12);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.textBox13);
             this.Controls.Add(this.label19);
@@ -429,6 +546,17 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.TextBox textBox16;
     }
 }
 
