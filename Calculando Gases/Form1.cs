@@ -99,7 +99,7 @@ namespace Calculando_Gases
             }
             else if (Convert.ToDouble(textBox6.Text) == 12)
             {
-                double resultado = celcius + 273.15; ;
+                double resultado = celcius + 273; ;
                 label6.Text = $"O resultado é: {resultado}";
             }
             else if (Convert.ToDouble(textBox6.Text) == 13)
@@ -112,7 +112,7 @@ namespace Calculando_Gases
                 double resultado = pascal / 101325; ;
                 label6.Text = $"O resultado é: {resultado}";
             }
-            else if (Convert.ToDouble(textBox6.Text) == 14)
+            else if (Convert.ToDouble(textBox6.Text) == 15)
             {
                 double resultado = Kpascal / 101.325; ;
                 label6.Text = $"O resultado é: {resultado}";

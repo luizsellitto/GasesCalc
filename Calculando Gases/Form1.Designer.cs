@@ -72,6 +72,8 @@
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -455,11 +457,31 @@
             this.textBox16.TabIndex = 44;
             this.textBox16.Text = "0";
             // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(570, 375);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(106, 16);
+            this.label28.TabIndex = 45;
+            this.label28.Text = "14 - Pascal - Atm";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(570, 391);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(111, 16);
+            this.label29.TabIndex = 46;
+            this.label29.Text = "15 - KPascal -Atm";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.label28);
             this.Controls.Add(this.textBox16);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.textBox15);
@@ -557,6 +579,8 @@
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
     }
 }
 
